@@ -1,10 +1,5 @@
-let number = 5;
-let acumulator = 0;
-let contador = 0;
-while(contador <= number){
-  if(contador == number){
-    console.log('la suma de los numeros del 1 al ' +  number + ' es ' + acumulator);
+for(let i = 1; i<=30; i++){
+  if(i%3 == 0){
+    console.log(i)
   }
-  ++contador;
-  acumulator += contador;
 }
